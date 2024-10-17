@@ -1,5 +1,5 @@
 
-
+#todo implementado
 from abc import ABC, abstractmethod
 from validadorclave.modelo.errores import NoTieneLetraMayusculaError, NoTieneLetraMinusculaError, NoTieneNumeroError, NoTieneCaracterEspecialError, NoCumpleLongitudMinimaError, NoTienePalabraSecretaError
 
