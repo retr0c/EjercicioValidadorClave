@@ -28,7 +28,7 @@ class ReglaValidacionGanimedes(ReglaValidacion):
         super().__init__(8)
 
     def contiene_caracter_especial(self, clave):
-        return any(c in "@_#$%" for c in clave)
+        return any(c in "'@','#', '_', '$', '%'" for c in clave)
 
     def es_valida(self, clave):
         if not self._validar_longitud(clave):
